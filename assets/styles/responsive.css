@@ -1,0 +1,66 @@
+
+@media (min-width:576px) {
+    .ExploreProductTitleFilter{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (min-width:768px) {
+    .TopSeller{padding-bottom: 82px;}
+    .TopcollectionsBox:not(.not){
+        display: block;
+    }
+    .TopcollectionsBox{width:310px ;}
+    .footercontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footerContentText{
+        max-width: 244px;
+    }
+    .footerSubscribeUsEmail{
+        width: 282px;
+    }
+    
+}
+@media (min-width:992px) {
+    .header{height: 85px;}
+    .inputBox{display: flex;}
+    .nav{display: block;}
+    .WalletConnect{display: flex;}
+    .hamMenu{display: none;}
+    /* -------------------- */
+    .heroSectionTitle{
+        font-size: 70px;
+        max-width:500px;
+        line-height: 85px;
+        margin-top: 96px;
+    }
+    .heroSectionContent{
+        max-width: 400px;
+        margin-top: 6px;
+    }
+    .heroSectionstartedLink{
+        margin-bottom: 145px;
+    }
+    .TopcollectionsContainer{
+        margin: 0 -15px;
+    }
+    .TopcollectionsBox{
+        width: 200px;
+        margin: 15px;
+    }
+    .CreateAndSellService{
+        height: 236px;
+    }
+    
+}
+@media (min-width:1200px) {
+    .justBorder{display: block;}
+    .WalletConnectLink{
+        width: 172px;
+        height: 42px;
+    }
+    
+}
